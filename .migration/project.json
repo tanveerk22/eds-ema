@@ -3,5 +3,9 @@
   "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
   "contentHostUrl": "author-p140810-e1901273.adobeaemcloud.com",
   "previewOrg": "tanveerk22",
-  "previewSite": "eds-ema"
+  "previewSite": "eds-ema",
+  "aemSitePath": "/content/eds-ema",
+  "aemAssetsFolderPath": "/content/dam/eds-ema",
+  "aemSiteName": "eds-ema",
+  "aemSiteTitle": "EDS EMA POC"
 }
