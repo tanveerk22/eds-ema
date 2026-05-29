@@ -1,0 +1,96 @@
+.columns-faq-container .columns-faq-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.columns-faq {
+  padding: 40px 0;
+}
+
+.columns-faq > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-faq > div > div:first-child {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--light-color);
+  min-height: 200px;
+}
+
+.columns-faq > div > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.columns-faq > div > div:first-child a {
+  display: block;
+  height: 100%;
+}
+
+.columns-faq > div > div:first-child picture {
+  display: block;
+  height: 100%;
+}
+
+.columns-faq > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-faq h2 {
+  font-size: var(--heading-font-size-xl);
+  font-weight: 700;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.columns-faq > div > div:last-child > p:nth-child(2) a {
+  color: var(--link-color);
+  font-size: var(--body-font-size-s);
+  text-decoration: underline;
+}
+
+.columns-faq > div > div:last-child > p:nth-child(even):not(:nth-child(2)) {
+  font-size: var(--body-font-size-xs);
+  color: #555;
+  line-height: 1.5;
+  margin-top: 0;
+  padding-bottom: 8px;
+}
+
+.columns-faq > div > div:last-child > p:nth-child(odd):not(:first-child, :nth-child(2)) {
+  font-weight: 700;
+  font-size: var(--body-font-size-s);
+  color: var(--text-color);
+  margin-top: 16px;
+  margin-bottom: 4px;
+  padding: 12px 0;
+  border-top: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+@media (width >= 900px) {
+  .columns-faq > div {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .columns-faq > div > div {
+    flex: 1;
+  }
+
+  .columns-faq > div > div:first-child {
+    min-height: 300px;
+  }
+
+  .columns-faq-container .columns-faq-wrapper {
+    padding: 0 32px;
+  }
+}

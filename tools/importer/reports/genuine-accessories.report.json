@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "url": "https://www.marutisuzuki.com/genuine-accessories",
+  "path": "genuine-accessories",
+  "timestamp": "2026-05-29T16:57:47.675Z",
+  "title": "Buy Genuine Car Accessories Online for Maruti Suzuki Car",
+  "template": "genuine-accessories",
+  "blocks": [
+    "hero-accessories",
+    "columns-promo",
+    "carousel-product",
+    "carousel-product",
+    "carousel-product",
+    "carousel-product",
+    "carousel-product",
+    "carousel-vehicle",
+    "columns-teaser",
+    "cards-category",
+    "carousel-banner",
+    "columns-feature",
+    "cards-feature",
+    "columns-faq",
+    "cards-promo"
+  ]
+}

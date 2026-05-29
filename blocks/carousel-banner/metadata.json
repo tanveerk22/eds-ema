@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-banner",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-05-29T16:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.marutisuzuki.com/genuine-accessories",
+    "originPage": "accessories e-commerce homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "offer-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "full-width promotional image per slide",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "seasonal offer banner rotators",
+      "promotional image carousels",
+      "campaign banner sliders"
+    ],
+    "notSuitableFor": [
+      "product card carousels",
+      "testimonial sliders",
+      "text-heavy content rotators"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/genuine-accessories"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T16:25:00.000Z"
+  }
+}

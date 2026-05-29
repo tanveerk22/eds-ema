@@ -19,9 +19,105 @@
     ]
   },
   {
+    "id": "cards-category",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-feature",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-promo",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "carousel-banner",
+    "components": [
+      "carousel-banner-item"
+    ]
+  },
+  {
+    "id": "carousel-product",
+    "components": [
+      "carousel-product-item"
+    ]
+  },
+  {
+    "id": "carousel-vehicle",
+    "components": [
+      "carousel-vehicle-item"
+    ]
+  },
+  {
+    "id": "columns-faq",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-feature",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-promo",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-teaser",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {

@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "genuine-accessories",
+      "urls": ["https://www.marutisuzuki.com/genuine-accessories"],
+      "description": "Genuine accessories landing page showcasing Maruti Suzuki vehicle accessories categories",
+      "blocks": [
+        {
+          "name": "hero-accessories",
+          "instances": [".section.hero-container .hero.block"]
+        },
+        {
+          "name": "columns-promo",
+          "instances": [".section.hero-container .trusted-product-banner.block"]
+        },
+        {
+          "name": "carousel-product",
+          "instances": [".section.product-recommendations-container > .product-recommendations-wrapper > .product-recommendations.block"]
+        },
+        {
+          "name": "carousel-vehicle",
+          "instances": [".section.car-carousel-container .car-carousel.block"]
+        },
+        {
+          "name": "columns-teaser",
+          "instances": [".section.sign-up-teaser-container .sign-up-teaser.block .signup-teaser--rewards_teaser"]
+        },
+        {
+          "name": "cards-category",
+          "instances": [".section.explore-category-container .explore-category.block"]
+        },
+        {
+          "name": "carousel-banner",
+          "instances": [".offer-banner.block"]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [".car-config-teaser.block"]
+        },
+        {
+          "name": "cards-feature",
+          "instances": [".sign-up-teaser.block .signup-teaser--cards_teaser"]
+        },
+        {
+          "name": "columns-faq",
+          "instances": [".smart-emi-banner.block"]
+        },
+        {
+          "name": "cards-promo",
+          "instances": [".slider.block"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Section",
+          "selector": ".section.hero-container.trusted-product-banner-container",
+          "style": "dark",
+          "blocks": ["hero-accessories", "columns-promo"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Product Recommendations",
+          "selector": "div.section.product-recommendations-container",
+          "style": null,
+          "blocks": ["carousel-product"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Car Selector",
+          "selector": ".section.car-carousel-container",
+          "style": null,
+          "blocks": ["carousel-vehicle"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Rewards Teaser",
+          "selector": ".section.sign-up-teaser-container.product-recommendations-container",
+          "style": null,
+          "blocks": ["columns-teaser"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Categories and Offers",
+          "selector": ".section.explore-category-container.fragment-container.offer-banner-container.car-config-teaser-container",
+          "style": null,
+          "blocks": ["cards-category", "carousel-banner", "columns-feature"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Features and More",
+          "selector": ".section.fragment-container.product-recommendations-container.smart-emi-banner-container.sign-up-teaser-container",
+          "style": null,
+          "blocks": ["cards-feature", "carousel-product", "columns-faq", "cards-promo"],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

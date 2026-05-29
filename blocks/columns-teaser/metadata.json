@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-teaser",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-29T16:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.marutisuzuki.com/genuine-accessories",
+    "originPage": "accessories e-commerce homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "rewards-teaser",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + description + link + image",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "sign-up promotion teasers",
+      "reward program announcements",
+      "feature highlight with image"
+    ],
+    "notSuitableFor": [
+      "multi-column data comparison",
+      "icon-based feature lists",
+      "full-width banner layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/genuine-accessories"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T16:25:00.000Z"
+  }
+}

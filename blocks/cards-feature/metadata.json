@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-29T16:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.marutisuzuki.com/genuine-accessories",
+    "originPage": "accessories e-commerce homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-highlights",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight grids",
+      "benefit/value proposition cards",
+      "process step cards with icons"
+    ],
+    "notSuitableFor": [
+      "product cards with pricing",
+      "image-heavy gallery cards",
+      "team member profiles"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/genuine-accessories"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T16:25:00.000Z"
+  }
+}
