@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    url: "https://author-p140810-e1901273.adobeaemcloud.com/bin/franklin.delivery/tanveerk22/eds-ema/main"
-    type: "markup"
-    suffix: ".html"
+  /: https://author-p140810-e1901273.adobeaemcloud.com/bin/franklin.delivery/tanveerk22/eds-ema/main
