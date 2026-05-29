@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-vehicle",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-05-29T16:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.marutisuzuki.com/genuine-accessories",
+    "originPage": "accessories e-commerce homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "vehicle-selector",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "car image + logo badge per slide",
+    "buttonCount": 1,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "vehicle model selector carousels",
+      "car brand browsing sliders",
+      "model-specific accessory entry points"
+    ],
+    "notSuitableFor": [
+      "text content carousels",
+      "hero banner sliders",
+      "testimonial rotators"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/genuine-accessories"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T16:25:00.000Z"
+  }
+}

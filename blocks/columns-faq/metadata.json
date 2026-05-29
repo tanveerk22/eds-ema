@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-faq",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-29T16:25:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.marutisuzuki.com/genuine-accessories",
+    "originPage": "accessories e-commerce homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "faq-with-media",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "video/image + heading + link + accordion FAQ",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections with media",
+      "EMI/payment info with video",
+      "support content with visual aids"
+    ],
+    "notSuitableFor": [
+      "simple text columns",
+      "image galleries",
+      "product comparison layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/genuine-accessories"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T16:25:00.000Z"
+  }
+}
